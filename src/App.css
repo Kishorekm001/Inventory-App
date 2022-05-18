@@ -1,0 +1,398 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home_header {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: gray; */
+  margin-left: 11%;
+  margin-right: 7%;
+}
+
+.add_btn {
+  width: 100px;
+  height: 40px;
+  margin: 0px 620px 0px 0px;
+  background-color: rgb(33, 160, 169);
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 17px;
+}
+
+.add_btn:hover {
+  background-color: rgb(35, 170, 180);
+  cursor: pointer;
+}
+
+.search {
+  width: 150px;
+  height: 35px;
+  border-radius: 2px;
+  margin-top: 0px;
+  border: none;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+footer {
+  display: flex;
+}
+
+.dlt_btn {
+  width: 70px;
+  height: 30px;
+  font-size: 17px;
+  border: 1px solid rgb(189, 22, 22);
+  color: rgb(189, 22, 22);
+  margin: 10px 20px 0px 40px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.dlt_btn:hover {
+  background-color: rgb(189, 22, 22);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.edt_btn {
+  width: 70px;
+  height: 30px;
+  font-size: 17px;
+  border: 1px solid rgb(33, 160, 169);
+  color: rgb(33, 160, 169);
+  margin: 10px 0px 0px 0px;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edt_btn:hover {
+  background-color: rgb(33, 160, 169);
+  color: black;
+  transition: 0.3s;
+}
+
+.item_card {
+  width: 280px;
+  height: 370px;
+  border: 1px solid lightgray;
+}
+
+.item_main footer {
+  /* background-color: rgb(243, 243, 243); */
+  width: 90%;
+  border-top: 1px solid lightgray;
+  margin: -10px auto 0px auto;
+  padding-bottom: 10px;
+}
+
+.item_data h2 {
+  display: flex;
+  margin-left: 20px;
+}
+
+.item_data h4 {
+  margin-top: -10px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.item_main {
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left;
+}
+
+.brand {
+  background-color: rgb(9, 89, 9);
+  color: white;
+  display: flex;
+  text-align: center;
+  padding: 2px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.quantity,
+.price {
+  background-color: rgb(33, 160, 169);
+  color: white;
+  display: flex;
+  text-align: center;
+  padding: 2px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.price.rupee {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+/* .Modal {
+  width:800px;
+  height:400px;
+  border:1px solid lightgray;
+  position: fixed;
+  left:20%;
+  top:15%;
+  background-color: white;
+  box-shadow: 0px 0px 5px black;
+} */
+
+.close_btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+  color: gray;
+}
+
+.close_btn:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.edit_modal {
+  width: 280px;
+  height: 370px;
+  background-color: rgb(229, 229, 229);
+  position: relative;
+}
+
+.add_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add_form h2 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.add_form label {
+  margin: 10px 0px 8px 12px;
+}
+
+.add_form input {
+  width: 95%;
+  margin-left: 1.5%;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+
+.add_form input:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 4px rgb(33, 160, 169);
+}
+
+.add_form .quantity_add {
+  width: 30%;
+  float: left;
+}
+
+.add_form .price_add {
+  width: 30%;
+  position: absolute;
+  top: 258px;
+  left: 300px;
+}
+
+.price_add_label {
+  position: absolute;
+  top: 216px;
+  left: 300px;
+}
+
+.edit_form dlt_btn {
+  width: 280px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit_form label {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+.edit_form {
+  border: 1px solid gray;
+}
+
+.edit_form input {
+  width: 250px;
+  height: 30px;
+  margin-right: 12px;
+  margin-left: 10px;
+}
+
+.edit_form .small {
+  display: flex;
+  flex-direction: row;
+}
+
+.edit_form .quantity_edit {
+  width: 105px;
+  height: 30px;
+}
+
+.edit_form .price_edit {
+  width: 105px;
+  height: 30px;
+}
+
+.edit_form footer {
+  margin-top: 10px;
+  padding: 0px;
+  border-top: 1px solid lightgray;
+  padding-top: 0px;
+}
+
+.edit_form .save {
+  width: 60px;
+  height: 30px;
+  font-size: 15px;
+  border: 1px solid rgb(68, 141, 26);
+  color: rgb(68, 141, 26);
+
+  margin: 13px 20px 14px 30px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.edit_form .cancel {
+  width: 75px;
+  height: 30px;
+  font-size: 15px;
+  border: 1px solid rgb(189, 22, 22);
+  color: rgb(189, 22, 22);
+  margin: 13px 20px 14px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.login {
+  width: 200px;
+  height: 150px;
+  padding: 30px;
+  border: 1px solid black;
+  position: absolute;
+  left: 500px;
+  top: 90px;
+}
+
+.login label {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 6px;
+}
+
+.login input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.login button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.login button:hover,
+.signup button:hover {
+  cursor: pointer;
+}
+
+.signup {
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  border: 1px solid black;
+  margin-top: 70px;
+  margin-left: 400px;
+}
+
+.signup label {
+  display: flex;
+  margin-left: 120px;
+  margin-bottom: 6px;
+}
+
+.signup input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.signup .email,
+.signup .password,
+.confirm_password {
+  margin-bottom: 30px;
+}
+
+.signup button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 5px;
+}

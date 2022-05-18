@@ -1,0 +1,159 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "Email": "Admin@gmail.com",
+      "password": "Admin"
+    },
+    {
+      "id": 2,
+      "Email": "Altek@gmail.com",
+      "password": "Altek"
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "Email": "login@gmail.com",
+      "password": "login"
+    },
+    {
+      "id": 2,
+      "Email": "signin@gmail.com",
+      "password": "signin"
+    },
+    {
+      "id": 3,
+      "Email": "signup@gmail.com",
+      "password": "signup"
+    },
+    {
+      "Email": "altek@gmail.com",
+      "password": "altek",
+      "id": 4
+    },
+    {
+      "Email": "sarath@gmail.com",
+      "password": "sarath",
+      "confirm_password": "sarath",
+      "id": 5
+    },
+    {
+      "Email": "Admin@gmail.com",
+      "password": "Admin",
+      "confirm_password": "Admin",
+      "id": 6
+    },
+    {
+      "Email": "kishorereddy1218@gmail.com",
+      "password": "1234",
+      "confirm_password": "1234",
+      "id": 7
+    },
+    {
+      "Email": "mn@gmai.com",
+      "password": "mnbc",
+      "confirm_password": "mnbc",
+      "id": 8
+    },
+    {
+      "Email": "abc@gmail.com",
+      "password": "ABCD",
+      "confirm_password": "ABCD",
+      "id": 9
+    },
+    {
+      "Email": "abcd@gmail.com",
+      "password": "abcd",
+      "confirm_password": "abcd",
+      "id": 10
+    },
+    {
+      "Email": "kishorereddy1218@gmail.com",
+      "password": "plmn",
+      "confirm_password": "plmn",
+      "id": 11
+    },
+    {
+      "Email": "kishorereddy1218@gmail.com",
+      "password": "abcd",
+      "confirm_password": "abcd",
+      "id": 12
+    },
+    {
+      "Email": "abc@ghj.com",
+      "password": "abcd",
+      "confirm_password": "abcd",
+      "id": 13
+    },
+    {
+      "Email": "abcde@gmail.com",
+      "password": "abcde",
+      "confirm_password": "abcde",
+      "id": 14
+    }
+  ],
+  "E_data": [
+    {
+      "id": 1,
+      "title": "Mac Book Pro",
+      "quantity": "10",
+      "brand": "Apple",
+      "price": "1,20,000",
+      "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-gold-select-201810?wid=904&hei=840&fmt=jpeg&qlt=80&.v=1633027804000"
+    },
+    {
+      "id": 2,
+      "title": "Hp Lapt",
+      "quantity": "18",
+      "brand": "Hp",
+      "price": "53,000",
+      "imageUrl": "https://5.imimg.com/data5/HI/LO/MY-24587489/hp-laptop-500x500.jpg"
+    },
+    {
+      "id": 3,
+      "title": "GT master edition",
+      "quantity": "20",
+      "brand": "Real Me",
+      "price": "25,000",
+      "imageUrl": ""
+    },
+    {
+      "id": 4,
+      "title": "one plus",
+      "quantity": "40",
+      "brand": "onePlus",
+      "price": "25,000",
+      "imageUrl": "https://www.gizmochina.com/wp-content/uploads/2020/03/OnePlus-8-1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Mac Book",
+      "quantity": "10",
+      "brand": "Apple",
+      "price": "1,20,000",
+      "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-gold-select-201810?wid=904&hei=840&fmt=jpeg&qlt=80&.v=1633027804000"
+    },
+    {
+      "title": "Redmi Note 6 pro",
+      "brand": "Xiamo",
+      "quantity": "6",
+      "price": "23000",
+      "id": 8
+    },
+    {
+      "title": "hg",
+      "brand": "rt",
+      "quantity": "3",
+      "price": "3466",
+      "id": 9
+    },
+    {
+      "title": "awsssss",
+      "brand": "aaa",
+      "price": "2",
+      "quantity": "2",
+      "id": 10
+    }
+  ]
+}
